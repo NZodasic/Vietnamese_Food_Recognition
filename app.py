@@ -23,7 +23,7 @@ api = Flask(__name__)
 CORS(api, supports_credentials=True)
 
 SWAGGER_URL = '/api/docs'
-API_URL = 'http://127.0.0.1:5000/static/swagger.json'
+API_URL = 'https://api-docs-h0cu.onrender.com/static/swagger.json'
 swaggerui_blueprint = get_swaggerui_blueprint(
     SWAGGER_URL,  # Swagger UI static files will be mapped to '{SWAGGER_URL}/dist/'
     API_URL,
