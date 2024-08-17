@@ -1,8 +1,6 @@
-Flask
-Flask-JWT-Extended
-Flask-Bcrypt
-Flask-SQLAlchemy
-flask-cors
-flask_swagger_ui
+fastapi
+pydantic
 ultralytics
-gunicorn
+werkzeug
+firebase_admin
+requests
