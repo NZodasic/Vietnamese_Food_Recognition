@@ -4,3 +4,4 @@ ultralytics
 werkzeug
 firebase_admin
 requests
+uvicorn[standard]
